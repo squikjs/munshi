@@ -1,8 +1,8 @@
 {
   "name": "munshi",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Importing packages in vanilla javascript, from unpkg, made simple.",
-  "main": "index.min.js",
+  "main": "munshi.min.js",
   "repository": "https://github.com/squikjs/munshi.git",
   "author": "Squik <aries.april.agam@gmail.com>",
   "license": "MIT",
@@ -10,6 +10,6 @@
     "minify": "^8.0.2"
   },
   "scripts": {
-    "minify": "node_modules\\.bin\\minify.cmd index.js > index.min.js"
+    "minify": "node_modules\\.bin\\minify.cmd munshi.js > munshi.min.js"
   }
 }
